@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ui-design-skill",
+  "version": "1.1.0",
+  "description": "Reusable UI/UX design, implementation, and review guidance based on durable human-interface principles, with Apple Human Interface Guidelines as a primary reference.",
+  "repository": "https://github.com/cascioo22/ui-design-skill",
+  "keywords": [
+    "ui",
+    "ux",
+    "design",
+    "accessibility",
+    "responsive",
+    "human-interface-guidelines"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "UI Design Skill",
+        "shortDescription": "Design and review usable, responsive interfaces.",
+        "longDescription": "Reusable UI/UX guidance for designing, implementing, and reviewing interfaces while preserving each product's own visual identity and platform conventions.",
+        "category": "Productivity",
+        "websiteURL": "https://github.com/cascioo22/ui-design-skill",
+        "defaultPrompt": [
+          "Review this interface for usability, hierarchy, responsiveness, and accessibility issues.",
+          "Redesign this screen while preserving the product's existing visual identity.",
+          "Improve this user-facing flow using the UI Design Skill."
+        ]
+      }
+    }
+  }
+}
